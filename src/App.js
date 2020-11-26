@@ -1,9 +1,13 @@
+import React from 'react';
+import { Router } from 'react-router-dom';
+import Routes from './pages/routes';
+import history from './pages/history';
 
 function App() {
   return (
-    <div className="App">
-     <h1>QualyTeam</h1>
-    </div>
+    <Router history={history}>
+      <Routes />
+    </Router>
   );
 }
 
