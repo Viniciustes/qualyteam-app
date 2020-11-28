@@ -1,0 +1,14 @@
+#footer {
+    background: #000;
+    position:fixed;
+    bottom:0;
+    width:100%;
+    height: 30px;
+    color: #333;
+    text-align: center;
+    font-weight: 900;
+    font-family: 'Gotham', sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
+    display: block;
+}

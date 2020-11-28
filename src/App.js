@@ -1,13 +1,15 @@
 import React from 'react';
-import { Router } from 'react-router-dom';
 import Routes from './pages/routes';
-import history from './pages/history';
+import AppProvider from './context/appContext';
+import { BrowserRouter as Router } from 'react-router-dom';
 
 function App() {
   return (
-    <Router history={history}>
-      <Routes />
-    </Router>
+    <AppProvider>
+      <Router>
+        <Routes />
+      </Router>
+    </AppProvider>
   );
 }
 
