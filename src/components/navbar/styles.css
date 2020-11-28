@@ -1,0 +1,16 @@
+.bg-dark {
+    background:#216a6c !important;
+}
+
+#basic-navbar-nav>form>a,
+#basic-navbar-nav>div>a:nth-child(1),
+#basic-navbar-nav>div>a:nth-child(2),
+#basic-nav-dropdown {
+    color: #fff;
+    font: normal 16px 'Gotham Book', sans-serif;
+    font-weight: 600;
+}
+
+#root>nav>a>img {
+    width: 120px;
+}
